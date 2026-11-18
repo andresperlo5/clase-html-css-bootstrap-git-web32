@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es_AR">
+  <head>
+    <!-- SEO, GEO, SEM -->
+    <meta name="author" content="Andres Perlo" />
+    <meta name="description" content="una breve descripcion del sitio" />
+    <meta
+      name="keywords"
+      content="todas las palabras claves relacionadas al sitio "
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesion</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header class="nav-principal color-del-navbar color-del-texto">
+      <a href="../index.html">
+        <img
+          src="../img/logo.webp"
+          alt="imagen principal logo de un aguila"
+          width="100"
+        />
+      </a>
+
+      <ul class="menu-nav-principal">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+
+      <ul class="menu-nav-principal">
+        <li><a href="./iniciar-sesion.html">Iniciar Sesion</a></li>
+        <li><a href="./registro.html">Registrarse</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="formulario-reg">
+        <form action="">
+          <label for="idnombreusuario">Nombre Usuario</label>
+          <input
+            type="text"
+            id="idnombreusuario"
+            placeholder="Por ejemplo: Usuario123"
+            required
+            minlength="6"
+            maxlength="20"
+          />
+          <br />
+          <label for="idcontrasenia">Contraseña</label>
+          <input
+            type="password"
+            id="idcontrasenia"
+            required
+            minlength="8"
+            maxlength="20"
+          />
+
+          <br />
+          <button type="submit">Ingresar</button>
+          <p>Olvidaste tu contrseña? Haz click <a href="#">aqui</a></p>
+          <p>
+            Si no tenes una cuenta.
+            <a href="./registro.html">Registrate YA!!!</a>
+          </p>
+        </form>
+
+        <section>
+          <p>Inicia tu sesion con:</p>
+          <button>Google</button>
+          <small>o</small>
+          <button>Facebook</button>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer footer-flex">
+      <section>
+        <a href="../index.html">
+          <img
+            src="../img/logo.webp"
+            alt="imagen principal logo de un aguila"
+            width="150"
+          />
+        </a>
+      </section>
+
+      <section>
+        <ul>
+          <li><a href="">Terminos y condiciones</a></li>
+          <li><a href="">Trabaja con nosotros</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <ul>
+          <li><a href="">FaceBook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">YouTube</a></li>
+        </ul>
+      </section>
+
+      <!-- Iframe -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.10590114805!2d-65.20935595035553!3d-26.836583795964355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1793057919312!5m2!1ses!2sar"
+        width="300"
+        height="150"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </footer>
+  </body>
+</html>

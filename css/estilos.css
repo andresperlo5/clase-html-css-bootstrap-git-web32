@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+  /*  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 150px;
+}
+/* color del navbar */
+.color-del-navbar {
+  background: #0008ff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 8, 255, 1) 0%,
+    rgba(29, 148, 253, 1) 50%,
+    rgba(33, 196, 205, 1) 76%,
+    rgba(36, 224, 177, 1) 100%
+  );
+  /*  background: rgb(4, 63, 102); */
+  color: white;
+}
+.color-del-texto {
+  color: pink;
+}
+
+.tamnio-img {
+  width: 100px;
+}
+
+.menu-nav-principal {
+  display: flex;
+  z-index: 999;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu-nav-principal a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 5px;
+}
+
+.nav-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.nav-principal img {
+  width: 100px;
+}
+
+.footer img {
+  width: 150px;
+}
+
+.menu-productos {
+  display: inline-block;
+}
+
+.menu-productos img {
+  width: 100%;
+}
+
+.formulario-reg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px; */
+  margin: 10px 0px;
+  /*   padding: ; */
+}
+.contenido-principal {
+  text-align: center;
+}
+
+.contenido-principal iframe {
+  margin-top: 30px;
+}
+
+/* PseudoClases */
+/* .menu-nav-principal a:hover {
+  color: red;
+} */
+
+/* .menu-nav-principal a:active {
+  color: red;
+} */
+
+/* .formulario-reg input:focus {
+  border: 1px solid orange;
+  border-radius: 50px;
+}
+ */
+
+/* PseudoElemento */
+/* .primer-parrafo::selection {
+  background: orange;
+}
+
+.primer-parrafo::first-letter {
+  background: orange;
+  font-size: 50px;
+}
+
+.menu-nav-principal a::after {
+  content: " -";
+}
+
+.menu-nav-principal a::before {
+  content: "- ";
+}
+ */
+
+/* BOX MODEL */
+
+.tarjeta-producto {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+  margin: 10px 20px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 16px 19px 14px 4px #000000;
+}
+
+.tarjeta-producto img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+.tarjeta-producto p {
+  margin-bottom: 20px;
+}
+
+.tarjeta-producto a {
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(184, 27, 27);
+}
+
+.tarjeta-producto a:hover {
+  background-color: rgb(230, 86, 86);
+}
+
+.tarjeta-producto button {
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(184, 27, 27);
+}
+
+.tarjeta-producto button:hover {
+  background-color: rgb(230, 86, 86);
+}
+
+#tituloPrincipal {
+  background: blue;
+}
+
+.titulo-principal {
+  background: red !important;
+}
+
+/* Medidas Relativas y Medidas Absolutas */
+/* Medidas Absolutas */
+/* PX - CM - MM - PC */
+/* Medidas Relativas */
+/* % - EM - REM - vw - vh */
+/* EM */
+/* 1em = 16px  - 1.5em = 16 + 8 = 24px*/
+
+/* REM - R - ROOT */
+
+/* 1rem  = 16px */
+
+/* Position */
+/* top - bottom - left - rigth */
+/* static - relative - absolute - fixed - sticky */
+.publicidad-central {
+  position: relative;
+}
+
+.publicidad-central button {
+  position: absolute;
+  left: 70px;
+  bottom: 130px;
+}
+
+.publicidad-central img {
+  width: 100%;
+}
+
+/* FlexBox */
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 50px;
+  background: #0008ff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 8, 255, 1) 0%,
+    rgba(29, 148, 253, 1) 50%,
+    rgba(33, 196, 205, 1) 76%,
+    rgba(36, 224, 177, 1) 100%
+  );
+  /*  background: rgb(4, 63, 102); */
+}
+
+.footer-flex a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-flex ul {
+  list-style: none;
+}
+
+.footer-flex li {
+  margin: 5px 0px;
+}
+
+/* cajas de ejemplo */
+
+/* .caja-padre {
+    flex-flow: column wrap;
+  flex-direction: row;
+    flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+}
+
+.caja {
+  flex: 1;
+
+  width: 100px;
+  height: 100px;
+}
+#uno {
+  order: 1;
+  background-color: red;
+}
+
+#dos {
+  flex: 2;
+  background-color: pink;
+}
+
+#tres {
+  align-self: end;
+  background-color: blue;
+}
+
+#cuatro {
+  order: -1;
+  background-color: brown;
+}
+ */
